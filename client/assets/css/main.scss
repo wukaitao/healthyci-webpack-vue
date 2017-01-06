@@ -1,0 +1,16 @@
+﻿@import 'common.scss';
+body{
+	background-color: darkgray;
+}
+#imageOne img{
+    width: 100%;
+}
+.image-two{
+	width: 120px;
+	height: 90px;
+	margin: 10px auto;
+	background-image: url('../images/pic-one.jpg');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}

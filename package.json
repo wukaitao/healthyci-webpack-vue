@@ -1,12 +1,22 @@
 {
-  "name": "testWebpack",
+  "name": "healthyci-webpack-vue",
   "version": "1.0.0",
-  "description": "My first project by webpack",
-  "main": "index.js",
+  "description": "The project whitch I work in cigna and develop by webpack & vue.",
+  "keywords": "healthyci webpack vue cigna",
+  "bugs": {
+	"email": "wukaitao2006@163.com"
+  },
+  "files": ["build","client","server","package.json","readme.js"],
+  "bin": "./path/to/program",
+  "main": "build/dev-server.js",
   "scripts": {
     "dev": "node build/dev-server.js",
     "build": "node build/build.js",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+	"type": "git",
+	"url": "https://github.com/wukaitao/healthyci-webpack-vue.git"
   },
   "author": "Nicky.Wu",
   "license": "ISC",

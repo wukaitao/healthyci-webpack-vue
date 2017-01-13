@@ -6,6 +6,7 @@ import Nav from './components/Nav.vue';
 import Popup from './components/Popup.vue';
 import Login from './components/Login.vue';
 import TobManage from './components/TobManage.vue';
+console.log('test.');
 /*
 import PointManage from './components/pointManage/PointManage.vue';
 import CreatePoint from './components/pointManage/CreatePoint.vue';
